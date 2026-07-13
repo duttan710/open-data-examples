@@ -15,5 +15,5 @@ Please navigate to the following files for detailed information:
     *   *Start here.* Contains the dataset overview, curation workflow, architecture breakdown, and downstream application pipelines (with workflow images).
 *   **[ Jupyter Notebook Tutorial](elDORS_AWS_Tutorial.ipynb)**
     *   An interactive, step-by-step guide demonstrating how to access, download, and utilize the dataset directly from AWS S3 using the AWS CLI.
-*   **[ AWS Open Data YAML Configuration](eldors_v1.yaml)**
+*   **[ AWS Open Data YAML Configuration](elDORS_v1.yaml)**
     *   The machine-readable configuration file containing the official AWS registry metadata.
