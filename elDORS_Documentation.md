@@ -33,9 +33,9 @@ elDORS_v1_Database/
 #### 1. Database Curation & Redundancy Removal Pipeline
 The elDORS database is built by integrating vast genomic, non-coding RNA (ncRNA), and metagenomic resources. To make this resource computationally efficient, we applied a strict hierarchical redundancy removal and an 80% sequence identity clustering workflow:
 
-![elDORS Curation Pipeline](images/elDORS_creation_workflow.png)
+![elDORS Curation Pipeline](images/elDORS_creation_workflow.jpg)
 
 #### 2. Downstream Optimization for Structure Prediction Pipelines
 To enable immediate drop-in compatibility, the dataset is provided in specialized, pre-indexed builds optimized for cutting-edge RNA multiple sequence alignment (MSA) and contact prediction tools like `rMSA` and `RNAcmap3` and also prcisely curated to ensure efficient downsteam use like RNA language model training using either the sequences from the database or the Multiple sequence alignments generated using the database:
 
-![elDORS Downstream Pipelines](images/elDORS_downstream_application.png)
+![elDORS Downstream Pipelines](images/elDORS_downstream_application.jpg)
