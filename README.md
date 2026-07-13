@@ -11,7 +11,7 @@ This repository contains all the necessary documentation, execution templates, a
 
 Please navigate to the following files for detailed information:
 
-*   **[📘 elDORS Complete Documentation](elDORS_Documentation.md)**
+*   **[ elDORS Complete Documentation](elDORS_Documentation.md)**
     *   *Start here.* Contains the dataset overview, curation workflow, architecture breakdown, and downstream application pipelines (with workflow images).
 *   **[ Jupyter Notebook Tutorial](elDORS_AWS_Tutorial.ipynb)**
     *   An interactive, step-by-step guide demonstrating how to access, download, and utilize the dataset directly from AWS S3 using the AWS CLI.
