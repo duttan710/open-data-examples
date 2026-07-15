@@ -23,8 +23,7 @@ The total size of the directory is ~3.2 TB. It is divided into four primary **Di
 elDORS_v1_Database/
 ├── elDORS_v1_raw/                 (1.2 TB)  - Raw (unclustered) multi-volume FASTA format sequence database (provide as sequence-aware ~9GB compressed (fasta.gz) chunks)
 ├── elDORS_v1/                    - elDORS_v1 (80% sequence identitity clustered (with 80% overlap) version)
-│   └── elDORS_v1_chunks/          (170 GB)  - Multi-volume FASTA format database provided as sequence-aware ~9GB compressed (fasta.gz) chunks
-│   
+│  └── elDORS_v1_chunks/          (170 GB)  - Multi-volume FASTA format database provided as sequence-aware ~9GB compressed (fasta.gz) chunks 
 ├── rMSA_optimized_elDORS/           (1022 GB) - Optimized elDORS_V1 for rMSA pipeline: uncompressed FASTA format elDORS_v1 along with multi-volume BLAST format files 
 └── RNAcmap3_optimized_elDORS/       (861 GB)  - Optimized elDORS_V1 for RNAcmap3 split-strategy pipeline
     ├── blast/                     (286 GB)  - Multi-volume BLAST format database optimized for RNAcmap3 pipeline
