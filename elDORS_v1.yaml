@@ -12,7 +12,7 @@ Description: |
   with deep RNA alignment tools like rMSA and the RNAcmap3-elDORS pipeline.
 
 Documentation: https://github.com/duttan710/elDORS-aws-opendata
-Contact: https://github.com/<YOUR-GITHUB-USERNAME>/elDORS-aws-opendata/issues
+Contact: https://github.com/duttan710/elDORS-aws-opendata/issues
 ManagedBy: "[Insert Your Lab, University, or Name]"
 UpdateFrequency: Static / Versioned Release (v1.0)
 Tags:
@@ -42,5 +42,5 @@ DataAtWork:
       URL: https://github.com/<YOUR-GITHUB-USERNAME>/elDORS-aws-opendata/blob/main/elDORS_AWS_Tutorial.ipynb
       AuthorName: "[Nivedita Dutta / Vicens Lab]"
   Publications:
-    - Title: "[Insert the title of your bioRxiv paper here]"
-      URL: [Insert your bioRxiv link here]
+    - Title: "elDORS: An elevated Database of RNA Sequences" 
+      URL: https://www.biorxiv.org/content/10.64898/2026.07.10.737016v1

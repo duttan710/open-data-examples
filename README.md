@@ -3,7 +3,7 @@ Documentation and tutorials for accessing the elDORS (v1) database via AWS Open 
 
 # elDORS v1 Database Repository
 
-Welcome to the official repository for the **Elevated Database of RNA Sequences (elDORS)**. 
+Welcome to the official repository for **elDORS: An elevated Database of RNA Sequences ()**. 
 
 This repository contains all the necessary documentation, execution templates, and metadata required to utilize the elDORS database, which provides massive-scale and optimizations, built to efficiently utilize with rMSA and RNAcmap3 pipelines for deep MSA generation as well as RNA language model training. elDORS (v1) database is hosted via the AWS Registry of Open Data. Detailed documentation and tutorials are provided for accessing the elDORS (v1) database via AWS Open Data. 
 
