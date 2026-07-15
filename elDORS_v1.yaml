@@ -1,11 +1,11 @@
 ---
 Name: elDORS v1 Database
 Description: |
-  The Elevalted Database of RNA Sequences (elDORS) (elDORS) provides a massive-scale, 
+  The Elevalted Database of RNA Sequences (elDORS) provides a massive-scale, 
   up-to-date repository of RNA sequence data curated from diverse genomic, non-coding RNA, 
   and metagenomic sources. Following a rigorous hierarchical redundancy removal workflow, 
   the dataset features two distinct tiers: the baseline elDORS_raw database containing 
-  1.91 billion sequences, and an optimized elDORS version containing 1.32 billion sequences 
+  1.91 billion sequences, and a clustered and optimized elDORS version containing 1.32 billion sequences 
   (clustered at 80% sequence identity and 80% overlap, keeping sequences between 10 and 4096 nucleotides). 
   To bypass severe network bottlenecks, the database is distributed in raw chunked formats, 
   compressed archives, and pre-indexed pipeline builds optimized for immediate drop-in compatibility 
@@ -17,12 +17,13 @@ ManagedBy: "[Nivedita Dutta, Quentin Vicens at Vices Lab, Department of Biology 
 UpdateFrequency: Static / Versioned Release (v1.0)
 Tags:
   - bioinformatics
+  - RNA
   - rna-structure
   - genomics
   - metagenomics
   - multiple-sequence-alignment
   - structural-biology
-  - RNA language model
+  - RNA language model training
 License: "CC BY 4.0"
 Resources:
   - Description: |
@@ -38,9 +39,10 @@ Resources:
       - '[Browse Bucket](https://<PENDING-AWS-BUCKET-NAME>.s3.amazonaws.com/index.html)'
 DataAtWork:
   Tutorials:
-    - Title: Get to Know the elDORS v1 Dataset
-      URL: https://github.com/<YOUR-GITHUB-USERNAME>/elDORS-aws-opendata/blob/main/elDORS_AWS_Tutorial.ipynb
-      AuthorName: "[Nivedita Dutta / Vicens Lab]"
+    - Title: Get to Know the elDORS (v1) Database
+      URL: https://github.com/duttan710/elDORS-aws-opendata/blob/main/elDORS_AWS_Tutorial.ipynb
+      AuthorName: Nivedita Dutta, Vicens Lab
   Publications:
     - Title: "elDORS: An elevated Database of RNA Sequences" 
       URL: https://www.biorxiv.org/content/10.64898/2026.07.10.737016v1
+      AuthorName: Nivedita Dutta, Quentin Vicens
