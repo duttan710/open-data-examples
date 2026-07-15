@@ -13,7 +13,7 @@ The total size of the directory is ~3.2 TB. It is divided into four primary **Di
 
 | Distribution / Pipeline Build | Path / Directory | Size | Description |
 | :--- | :--- | :--- | :--- |
-| **Unclustered database ** | `./elDORS_v1_raw` | 1.2 TB | Raw (unclustered) database version |
+| **Unclustered database** | `./elDORS_v1_raw` | 1.2 TB | Raw (unclustered) database version |
 | **Compressed Archive for the clustered version** | `./elDORS_v1` | 170 GB | 80% sequence-identity (considering 80% overlap) clustered version (elDORS_v1) |
 | **rMSA-Optimized Build** | `./rMSA_optimized_elDORS` | ~ 1.0 TB | Optimized elDORS_V1 for rMSA pipeline |
 | **RNAcmap3-Optimized Build** | `./RNAcmap3_optimized_elDORS` | 861 GB | Optimized elDORS_V1 for RNAcmap3 split-strategy pipeline |
