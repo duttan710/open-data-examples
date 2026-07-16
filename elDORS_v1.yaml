@@ -1,5 +1,5 @@
 ---
-Name: elDORS v1 Database
+Name: elDORS (v1) Database
 Description: |
   The elDORS (elevalted Database of RNA Sequences) database provides a massive-scale, 
   updated repository of RNA sequence data curated from diverse genomic, non-coding RNA, 
@@ -11,19 +11,19 @@ Description: |
   compressed archives, and pre-indexed pipeline builds optimized for immediate drop-in compatibility 
   with deep RNA alignment tools like rMSA and the RNAcmap3-elDORS pipeline.
 
-Documentation: https://github.com/duttan710/elDORS-aws-opendata
-Contact: https://github.com/duttan710/elDORS-aws-opendata/issues
+Documentation: https://github.com/duttan710/open-data-examples
+Contact: https://github.com/duttan710/open-data-examples/issues
 ManagedBy: "[Nivedita Dutta, Quentin Vicens at Vices Lab, Department of Biology and Biochemistry, University of Houston]"
 UpdateFrequency: Static / Versioned Release (v1.0)
 Tags:
   - bioinformatics
-  - RNA
+  - rna
   - rna-structure
   - genomics
   - metagenomics
   - multiple-sequence-alignment
   - structural-biology
-  - RNA language model training
+  - rna-language-model-training
 License: "CC BY 4.0"
 Resources:
   - Description: |
@@ -40,7 +40,7 @@ Resources:
 DataAtWork:
   Tutorials:
     - Title: Get to Know the elDORS (v1) Database
-      URL: https://github.com/duttan710/elDORS-aws-opendata/blob/main/elDORS_AWS_Tutorial.ipynb
+      URL: https://github.com/duttan710/elDORS-aws-opendata/blob/main/elDORS_v1_Database/get-to-know-a-dataset.ipynb
       AuthorName: Nivedita Dutta, Vicens Lab
   Publications:
     - Title: "elDORS: An elevated Database of RNA Sequences" 
