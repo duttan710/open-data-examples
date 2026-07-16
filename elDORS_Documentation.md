@@ -1,7 +1,7 @@
 ## 1. Overview
 While massive sequence databases have recently revolutionized computational protein structure prediction, RNA research has historically lagged due to a lack of consolidated sequence resources. The **elDORS** database bridges this critical gap. By strategically integrating  genomic and metagenomic databases, **elDORS_v1_raw** (the raw, foundational tier of our version 1 release) provides a massive-scale, up-to-date repository of RNA sequence data. Here, we also provide an 80% sequence-identity (considering 80% sequence overlap) clustered version **elDORS_v1** (explicitly designed for efficient use with advanced bioinformatics pipelines).
 Our benchmarking demonstrates that elDORS-augmented pipelines match or exceed the alignment depth of massive legacy databases, effectively eliminating the sequence retrieval failures that typically challenge "orphan" RNAs.
-To bypass the severe network timeouts and I/O bottlenecks associated with transferring monolithic files, the **3.2 TB** elDORS database is distributed in precisely engineered, multi-volume architectures. These distributions are optimized for high-speed parallel downloads and immediate drop-in compatibility with leading multiple sequence alignment (MSA) pipelines.
+To bypass the severe network timeouts and I/O bottlenecks associated with transferring monolithic files, the **3.2 TB** elDORS dataset is distributed in precisely engineered, multi-volume architectures. These distributions are optimized for high-speed parallel downloads and immediate drop-in compatibility with leading multiple sequence alignment (MSA) pipelines.
 
 ---
 
