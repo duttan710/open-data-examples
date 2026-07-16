@@ -11,7 +11,7 @@ Description: |
   compressed archives, and pre-indexed pipeline builds optimized for immediate drop-in compatibility 
   with deep RNA alignment tools like rMSA and the RNAcmap3-elDORS pipeline.
 
-Documentation: https://github.com/duttan710/open-data-examples
+Documentation: https://github.com/duttan710/open-data-examples/blob/main/elDORS_v1_Documentation.md
 Contact: https://github.com/duttan710/open-data-examples/issues
 ManagedBy: "[Nivedita Dutta, Quentin Vicens at Vices Lab, Department of Biology and Biochemistry, University of Houston]"
 UpdateFrequency: Static / Versioned Release (v1.0)
