@@ -37,7 +37,7 @@ The elDORS database is built by integrating vast genomic, non-coding RNA (ncRNA)
 ![elDORS Curation Pipeline](images/elDORS_creation_workflow.jpg)
 
 #### 2. Downstream Optimization for MSA generation pipelines
-To enable immediate drop-in compatibility, the dataset is provided in specialized, pre-indexed builds optimized for cutting-edge RNA multiple sequence alignment (MSA) and contact prediction tools like `rMSA` and `RNAcmap3` and also precisely curated to ensure efficient downstream use like RNA language model training using either the sequences from the database or the Multiple sequence alignments generated using the database:
+To enable immediate drop-in compatibility, the dataset is provided in specialized, pre-indexed builds optimized for cutting-edge RNA multiple sequence alignment (MSA) and contact prediction tools like `rMSA` and `RNAcmap3`, and also precisely curated to ensure efficient downstream use, such as RNA language model training using either the sequences from the database or the Multiple sequence alignments generated using the database:
 
 ![elDORS Downstream Pipelines](images/elDORS_downstream_application.jpg)
 
@@ -47,7 +47,7 @@ The elDORS database is constructed by comprehensively integrating a vast array o
 
 If you use the elDORS database or our optimized pipeline builds in your research, please cite:
 
-> **Dutta, N., & Vicens, Q. (2026). elDORS: An elevated Database of RNA Sequences.** *bioRxiv*. [https://www.biorxiv.org/content/10.64898/2026.07.10.737016v1](https://www.biorxiv.org/content/10.64898/2026.07.10.737016v1)
+> **Dutta, N., & Vicens, Q. (2026). elDORS: An elevated Database Of RNA Sequences.** *bioRxiv*. [https://www.biorxiv.org/content/10.64898/2026.07.10.737016v1](https://www.biorxiv.org/content/10.64898/2026.07.10.737016v1)
 
 **Additionally, please support the resources that make this work possible:**
- When utilizing sequences from this database, we strongly encourage users to also cite the component source databases and repositories. A comprehensive list of references for these foundational resources is provided is provided in the "Methods" section of our preprint.
+ When utilizing sequences from this database, we strongly encourage users to also cite the component source databases and repositories. A comprehensive list of references for these foundational resources is provided in the "Methods" section of our preprint.
