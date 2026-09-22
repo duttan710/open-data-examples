@@ -15,8 +15,8 @@ The total size of the directory is ~3.2 TB. It is divided into four primary **Di
 
 | Distribution / Pipeline Build | Path / Directory | Size | Description |
 | :--- | :--- | :--- | :--- |
-| **Unclustered database** | `./elDORS_v1_raw` | 1.2 TB | Raw (unclustered) database version (elDORS_v1_raw) |
-| **Clustered version** | `./elDORS_v1` | 170 GB | 80% sequence-identity (considering 80% overlap) clustered version (elDORS_v1) |
+| **Unclustered database** | `./elDORS_v1_raw` | 1.2 TB | Raw (unclustered) database version (elDORS_v1_raw) provided as multi-volume compressed files|
+| **Clustered version** | `./GZIPPED_elDORS_v1` | 340 GB | elDORS_v1 80% sequence-identity (considering 80% overlap) clustered version (elDORS_v1) provided as single-volume (170 GB) and also multi-volume (total 170 GB) compressed files |
 | **rMSA-Optimized Build** | `./rMSA_optimized_elDORS` | ~ 1.0 TB | Optimized elDORS_V1 for rMSA pipeline |
 | **RNAcmap3-Optimized Build** | `./RNAcmap3_optimized_elDORS` | 861 GB | Optimized elDORS_V1 for RNAcmap3 split-strategy pipeline |
 
@@ -24,7 +24,7 @@ The total size of the directory is ~3.2 TB. It is divided into four primary **Di
 ```text
 elDORS_v1_Database/
 ├── elDORS_v1_raw/                 (1.2 TB)  - Raw (unclustered) multi-volume FASTA format sequence database (provided as sequence-aware ~9GB compressed (.fasta.gz) chunks)
-├── GZIPPED_elDORS_v1/            (340GB)  - elDORS_v1 (80% sequence identity clustered (with 80% overlap) version), unchunked version ~170 GB (.fasta.gz) 
+├── GZIPPED_elDORS_v1/            (340GB)  - elDORS_v1 (elDORS_v1.fasta.gz) (80% sequence identity clustered (with 80% overlap) version), unchunked version ~170 GB  
 │  └── elDORS_v1_chunks/          (170 GB)  - Multi-volume FASTA format database provided as sequence-aware ~9 GB compressed (.fasta.gz) chunks 
 ├── rMSA_optimized_elDORS/           (1022 GB) - Optimized elDORS_V1 for rMSA pipeline: uncompressed FASTA format elDORS_v1 along with multi-volume BLAST format files 
 └── RNAcmap3_optimized_elDORS/       (861 GB)  - Optimized elDORS_V1 for RNAcmap3 split-strategy pipeline
